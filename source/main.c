@@ -19,7 +19,7 @@ typedef struct {
 } Memory;
 Memory memusg;
 
-int lua_printf(lua_State *L)
+int lua_print(lua_State *L)
 {
     int argc = lua_gettop(L);
     int n;
