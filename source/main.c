@@ -66,7 +66,7 @@ int main()
     luaL_openlibs(L);
     
     //register stuff
-    lua_register(L, "printf", lua_printf);
+    lua_register(L, "print", lua_print);
     lua_register(L, "waitVblankStart", lua_waitVblankStart);
     // register our own functions
     /*
