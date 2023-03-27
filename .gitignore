@@ -1,0 +1,9 @@
+
+*.PBP
+*.SFO
+*.prx
+*.elf
+*.o
+*.sav
+*.save
+.DS_Store
